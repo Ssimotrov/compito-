@@ -1,0 +1,48 @@
+body {
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 20em;
+    margin: 0 auto;/* centra il contenuto orizontalmente */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main {
+    background-color: grey;
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    margin: auto; /* centra il contenuto orizontalmente */
+}
+
+.row {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;    
+}
+
+.row div {
+    border-style: solid;
+    border-color: black;
+    border-radius: 1em;
+    margin: 0.5em;
+    padding: 1.5em;
+    flex: 1;
+    
+}
+
+#display {
+    text-align: center;  
+     background-color: rgb(23, 110, 23);
+    
+}
+
+#pulire {
+    text-align: center;
+}
+
+
+
+
